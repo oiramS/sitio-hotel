@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-landing-page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header . . . ." ". . container container . ." ". . container container . ." ". . container container . ." ". . box1 box1 . ." ". . . . . .";
+    background-image: url(../../images/bg_img.jpg);
+    background-size: cover;
+}
+
+.container {
+    background: #393e46;
+    border-radius: 5%;
+    grid-area: container;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+.header {
+    background: transparent;
+    grid-area: header;
+    text-align: center;
+}
+
+.header h1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 64px;
+    font-family: 'Roboto', cursive;
+    text-decoration: underline white 2px;
+}
+
+.container a {
+    color: #eeeeee;
+}
