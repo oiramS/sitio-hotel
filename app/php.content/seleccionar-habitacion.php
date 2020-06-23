@@ -8,9 +8,10 @@
     */
 
     if($tipoHab == 1){
-        echo '<form action="registro-huesped.php" class="box">
+        echo '
+            <form action="registro-huesped.php" class="box">
             <h1>3.Seleccione el piso de la habitación:</h1>
-            <select name="piso-habitacion" id="piso-habitacion" required>
+            <select name="piso" id="piso" required>
                 <option value="" disabled selected>Seleccione el piso de la habitación.</option>
                 <option value="1">Piso 1</option>
                 <option value="2">Piso 2</option>
@@ -19,7 +20,7 @@
                 <option value="6">Piso 6</option>
             </select>
             <h1>4.Seleccione la habitación del huesped: </h1>
-            <select name="piso-habitacion" id="piso-habitacion" required>
+            <select name="habitacion" id="habitacion" required>
                 <option value="" disabled selected>Seleccione el piso de la habitación.</option>
                 <option value="1">Habitación 1</option>
                 <option value="2">Habitación 2</option>
