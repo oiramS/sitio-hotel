@@ -1,4 +1,6 @@
-    .box input[type="date"] {
+    .box input[type="date"],
+    .box input[type="text"],
+    .box input[type="email"] {
         display: block;
         margin: 5px auto;
         background: none;
@@ -55,7 +57,9 @@
         background: #2ecc71;
     }
     
-    .box input[type="date"]:focus {
+    .box input[type="date"]:focus,
+    .box input[type="email"]:focus,
+    .box input[type="text"]:focus {
         width: 280px;
         border-color: #2ecc71;
     }

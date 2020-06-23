@@ -1,11 +1,15 @@
-.row {
-    display: flex;
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .column {
-    flex: 50%;
+    float: left;
+    width: 50%;
 }
 
 .column h1 {
     text-align: center;
+    padding: 5%;
 }
