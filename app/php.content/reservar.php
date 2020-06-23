@@ -11,7 +11,7 @@
         <div class="option-info-content">  
             <?php 
                 //En este archivo es donde tienes que procesar la reservacón
-                //require 'reservation.php'
+                //require 'action.php'
                 $usrnm = $_GET['fname'];
                 echo $usrnm;
                 echo '
