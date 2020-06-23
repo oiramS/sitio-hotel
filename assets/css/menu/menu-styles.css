@@ -1,4 +1,5 @@
-.universal-menu a {
+.universal-menu a,
+.universal-menu button {
     background-color: #353f4e;
     color: #eee;
     display: block;
@@ -17,4 +18,29 @@
 
 .universal-menu a.exit:hover {
     background-color: rgb(190, 3, 3);
+}
+
+.dropbtn {
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropup {
+    position: relative;
+    display: block;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    bottom: 50px;
+    right: 0;
+    background-color: #242931;
+    border-radius: 5%;
+}
+
+.dropup:hover .dropup-content {
+    display: block;
 }

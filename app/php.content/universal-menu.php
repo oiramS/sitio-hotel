@@ -9,7 +9,16 @@
     <a href="rsvp.php?id=rsvp">Reservar Habitación</a><br>
     <a href="check-in.php?id=in">Check-In</a><br>
     <a href="check-out.php?id=out">Check-Out</a><br>
-    <a href="#?id=adsrv">Servicios Adicionales</a><br>
+    <a href="#?id=adsrv">Mantenimiento</a><br>
+    <div class="dropup">
+        <a href="">Servicios Adicionales</a><br>
+        <div class="dropup-content">
+            <br><a href="#">Gimnacio</a><br>
+            <a href="#">Zumba</a><br>
+            <a href="#">Mantenimiento Adicional</a><br>
+            <a href="#">Información de las Habitaciones</a><br>
+        </div>
+    </div>
     <a href="#?id=mnt">Mantenimiento</a><br>
     <?php
         $isAdmin = TRUE;
