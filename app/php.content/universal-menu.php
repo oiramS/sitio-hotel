@@ -15,6 +15,7 @@
         <div class="dropup-content">
             <br><a href="#">Gimnasio</a><br>
             <a href="#">Yoga</a><br>
+            <a href="#">Zumba</a><br>
             <a href="#">Mantenimiento Adicional</a><br>
             <a href="#">Información de las Habitaciones </a><br>
         </div>
@@ -25,7 +26,17 @@
         if(!$isAdmin)
             echo '<br><br><br>'; 
         else
-           echo  '<a href="#?id=admn">Administración</a><br>';   
+           echo  '
+                <div class="dropup">
+                <a href="">Administración</a><br>
+                    <div class="dropup-content">
+                        <br><a href="#">Información de Empleados</a><br>
+                        <a href="#">Reportes Financieros</a><br>
+                        <a href="#">Promociones</a><br>
+                        <a href="#">Información de las Habitaciones </a><br>
+                    </div>
+                </div>
+                ';   
     ?>
     <a href="../../index.html" class="exit">Cerrar Sesión</a><br>
 </div>
