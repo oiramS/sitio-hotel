@@ -9,11 +9,18 @@
         <?php echo file_get_contents("../html-content/header.html")?>
         <?php require 'universal-menu.php'?>
         <div class="option-info-content">
-            <!-- 
-                -Aqui deberias poner un saludo al usuario en turno, la fecha o algo asi.
-                para que no se quede en blanco.
-                -O el carrucel.
-            -->
+            <div class="slide">
+                <h1>Hola Prro</h1>
+            </div>
+            <div class="slide">
+                <h1>No se que poner aqui</h1>
+            </div>
+            <div class="slide">
+                <h1>Pero funciona</h1></div>
+            <div class="slide">
+                <h1>ALV</h1>
+            </div>
+            <script src="../scripts/carrucel.js"></script>
         </div>
     </div>
 

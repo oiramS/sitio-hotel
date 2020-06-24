@@ -13,10 +13,10 @@
     <div class="dropup">
         <a href="">Servicios Adicionales</a><br>
         <div class="dropup-content">
-            <br><a href="#">Gimnacio</a><br>
-            <a href="#">Zumba</a><br>
+            <br><a href="#">Gimnasio</a><br>
+            <a href="#">Yoga</a><br>
             <a href="#">Mantenimiento Adicional</a><br>
-            <a href="#">Información de las Habitaciones</a><br>
+            <a href="#">Información de las Habitaciones </a><br>
         </div>
     </div>
     <a href="#?id=mnt">Mantenimiento</a><br>
