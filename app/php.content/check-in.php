@@ -6,7 +6,7 @@
 <body>
     <div class="grid-menu-page">
         <?php echo file_get_contents("../html-content/logo.html")?>
-        <?php echo file_get_contents("../html-content/header.html")?>
+        <?php require 'header.php'?>
         <?php require 'universal-menu.php'?>
         <div class="option-info-content">  
             

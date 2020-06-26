@@ -1,6 +1,7 @@
     .box input[type="date"],
     .box input[type="text"],
-    .box input[type="email"] {
+    .box input[type="email"],
+    .box input[type="password"] {
         display: block;
         margin: 5px auto;
         background: none;
@@ -59,7 +60,8 @@
     
     .box input[type="date"]:focus,
     .box input[type="email"]:focus,
-    .box input[type="text"]:focus {
+    .box input[type="text"]:focus,
+    .box input[type="password"]:focus {
         width: 280px;
         border-color: #2ecc71;
     }

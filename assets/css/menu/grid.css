@@ -42,7 +42,7 @@
 }
 
 .option-info-content h1,
-h2 {
+.option-info-contenth2 {
     position: relative;
     top: 30%;
     text-align: center;
@@ -53,4 +53,9 @@ h2 {
     text-decoration: none;
     font-weight: bold;
     color: #ffffff;
+}
+
+.header {
+    color: #ffffff;
+    text-align: right;
 }
