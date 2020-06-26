@@ -21,6 +21,16 @@
     transition: 0.25s;
 }
 
+checkbox {
+    width: 45px;
+    height: 15px;
+    background: #555;
+    margin: 20px 80px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+}
+
 .box input[type="text"]:focus,
 .box input[type="password"]:focus {
     width: 280px;

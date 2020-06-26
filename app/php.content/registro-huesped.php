@@ -12,6 +12,8 @@
             <form action="reservar.php" class="box">  
                 <div class="row">
                         <div class="column">
+                        <?php
+                        ?>
                             <h1>5.Información del Huesped.</h1>
                             <h3>Nombre completo:</h3>
                             <input type="text" id="fname" name="fname" placeholder="Juan Peréz" required><br>
@@ -19,7 +21,8 @@
                             <input type="text" id="edad" name="edad" placeholder="33" required><br>
                             <h3>Correo Electrónico:</h3>
                             <input type="text" id ="email" name="email" placeholder="example@email.com" required><br>
-
+                            <input type="checkbox" id="unam" name="unam" value="1">
+                            <label for="checkbox">Comunidad UNAM</label>
                         </div>
                         <div class="column">
                             <h1>6. Información de Pago.</h1>

@@ -46,15 +46,44 @@
 }
 
 .slide {
-    display: none;
+    height: 85vh;
     width: auto;
-    height: auto;
 }
 
-.slide h1 {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    background-color: blue;
+.slide h1,
+.slide h3 {
+    position: relative;
+    text-align: center;
+    top: 35%;
+    font-weight: bolder;
+    color: gold;
+    font-size: 500%;
+    text-shadow: 5px 5px black;
+}
+
+.gym {
+    background-image: url("../../images/gym.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.zumba {
+    background-image: url("../../images/zumba.jpg");
+    background-size: cover;
+}
+
+.yoga {
+    background-image: url("../../images/yoga.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.reception {
+    background-image: url("../../images/receptionist.jpg");
+    background-size: cover;
+}
+
+.room {
+    background-image: url("../../images/room.jpg");
+    background-size: cover;
 }

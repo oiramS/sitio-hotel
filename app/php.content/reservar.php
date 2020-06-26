@@ -11,12 +11,11 @@
         <div class="option-info-content">  
             <?php 
                 //En este archivo es donde tienes que procesar la reservacón
-                //require 'action.php'
+                //necesitamos sacar la fecha de llegada, el usrnm del cliente
                 $usrnm = $_GET['fname'];
-                echo $usrnm;
                 echo '
                 <h1>Solicitud Procesada de manera Exitosa!</h1>
-                <h2>En breve '.$usrnm.' recibirá la confirmación de reservación</h2>
+                <h1>En breve '.$usrnm.' recibirá la confirmación de reservación</h1>
                 ';
             ?>
         </div>

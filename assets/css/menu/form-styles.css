@@ -1,7 +1,8 @@
     .box input[type="date"],
     .box input[type="text"],
     .box input[type="email"],
-    .box input[type="password"] {
+    .box input[type="password"],
+    .box input[type="checkbox"] {
         display: block;
         margin: 5px auto;
         background: none;

@@ -9,16 +9,17 @@
         <?php require 'header.php'?>
         <?php require 'universal-menu.php'?>
         <div class="option-info-content">
-            <div class="slide">
-                <h1>Hola Prro</h1>
+            <div class="slide reception">
+                <h1>¡Bienvenido!</h1>
+                <h3>¡Esperamos verte pronto!</h3>
             </div>
-            <div class="slide">
-                <h1>No se que poner aqui</h1>
+            <div class="slide room">
+                <h1>¡Ponte comodo!</h1>
+                <h3>¡Y relajate!</h3>
             </div>
-            <div class="slide">
-                <h1>Pero funciona</h1></div>
-            <div class="slide">
-                <h1>ALV</h1>
+            <div class="slide zumba">
+                <h1>¡Solo lo mejor para ti!</h1>
+                <h3>¡Disfruta de nuestras instalaciones!</h3>
             </div>
             <script src="../scripts/carrucel.js"></script>
         </div>

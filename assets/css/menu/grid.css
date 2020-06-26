@@ -29,7 +29,6 @@
 
 .option-info-content {
     background-color: #313946;
-    ;
     grid-area: option-info-content;
     color: #ffffff;
 }
@@ -42,7 +41,7 @@
 }
 
 .option-info-content h1,
-.option-info-contenth2 {
+.option-info-content h2 {
     position: relative;
     top: 30%;
     text-align: center;
