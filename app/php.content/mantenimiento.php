@@ -9,7 +9,8 @@
         <?php require 'header.php'?>
         <?php require 'universal-menu.php'?>
         <div class="option-info-content">
-            <h1>Habitaciones que requieren mantenimiento el dia de hoy:</h1>
+            <div class="content"><h1 >Habitaciones que requieren mantenimiento el dia de hoy:</h1></div>
+            
             <?php 
                 //Aqui solo muestra en la tabla las habitaciones activas!!!!!!
                 //No te compliques

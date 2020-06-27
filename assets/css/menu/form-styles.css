@@ -71,3 +71,18 @@
     .box h1 {
         text-align: center;
     }
+    
+    .form-container {
+        background-color: #313946;
+        height: 100vh;
+        background-image: url("../../images/fondo1.jpg");
+        background-size: cover;
+    }
+    
+    .form-container h1,
+    .form-container h2,
+    .form-container h3 {
+        text-align: center;
+        color: #f4f6ff;
+        text-shadow: 2px 2px black;
+    }
